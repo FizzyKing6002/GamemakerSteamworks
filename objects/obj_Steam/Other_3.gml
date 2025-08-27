@@ -1,0 +1,1 @@
+if not is_game_restarting then steam_shutdown();
