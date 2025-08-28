@@ -13,4 +13,5 @@ switch async_load[?"event_type"]
         }
         
         room_goto(rm_GameRoom);
+	break;
 }

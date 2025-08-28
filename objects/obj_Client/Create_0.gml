@@ -2,6 +2,7 @@ playerList = [];
 
 steamID = steam_get_user_steam_id();
 steamName = steam_get_persona_name();
+lobbyHost = steam_lobby_get_owner_id();
 lobbyMemberID = undefined
 
 character = undefined;
