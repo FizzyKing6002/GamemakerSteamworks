@@ -36,7 +36,7 @@ function send_other_player_spawn (_steamID, _pos)
     buffer_write(_b, buffer_u16, _pos.y);
     buffer_write(_b, buffer_u64, _steamID);
     
-    for (var _i = 0; _i < array_length(playerList); i++)
+    for (var _i = 0; _i < array_length(playerList); _i++)
     {
         _playerID = playerList[_i].steamID;
         
