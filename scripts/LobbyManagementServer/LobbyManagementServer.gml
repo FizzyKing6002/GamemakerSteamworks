@@ -27,6 +27,29 @@ function send_player_spawn (_steamID, _slot)
 }
 
 /// @self obj_Server
+function send_other_player_spawn (_steamID, _pos)
+{
+    var _b = buffer_create(13, buffer_fixed, 1);
+    
+    buffer_write(_b, buffer_u8, NETWORK_PACKETS.SPAWN_OTHER);
+    buffer_write(_b, buffer_u16, _pos.x);
+    buffer_write(_b, buffer_u16, _pos.y);
+    buffer_write(_b, buffer_u64, _steamID);
+    
+    for (var _i = 0; _i < array_length(playerList); i++)
+    {
+        _playerID = playerList[_i].steamID;
+        
+        if _playerID != steamID && _playerID != _steamID
+        {
+            steam_net_packet_send(_playerID, _b);
+        }
+    }
+    
+    buffer_delete(_b);
+}
+
+/// @self obj_Server
 function shrink_player_list ()
 {
     //var _shrunkList = playerList;
@@ -61,29 +84,6 @@ function server_player_spawn_at_pos (_steamID, _pos)
 }
 
 /// @self obj_Server
-function server_other_player_spawn (_steamID, _pos)
-{
-    var _b = buffer_create(13, buffer_fixed, 1);
-    
-    buffer_write(_b, buffer_u8, NETWORK_PACKETS.SPAWN_OTHER);
-    buffer_write(_b, buffer_u16, _pos.x);
-    buffer_write(_b, buffer_u16, _pos.y);
-    buffer_write(_b, buffer_u64, _steamID);
-    
-    for (var _i = 0; _i < array_length(playerList); i++)
-    {
-        _playerID = playerList[_i].steamID;
-        
-        if _playerID != steamID && _playerID != _steamID
-        {
-            steam_net_packet_send(_playerID, _b);
-        }
-    }
-    
-    buffer_delete(_b);
-}
-
-/// @self obj_Server
 function send_player_input_to_clients (_playerInput)
 {
 	if _playerInput == undefined then return;
@@ -106,51 +106,4 @@ function send_player_input_to_clients (_playerInput)
 		}
 	}
 	buffer_delete(_b)
-}
-
-/// @self obj_Server
-function send_player_positions ()
-{
-	for (var _i = 0; _i < array_length(playerList); _i++)
-	{
-		var _player = playerList[_i];
-		
-		if _player.character == undefined then continue;
-		if _player.steamID == undefined then continue;
-		
-		var _b = buffer_create(13, buffer_fixed, 1);
-		
-		buffer_write(_b, buffer_u8, NETWORK_PACKETS.PLAYER_POSITION);
-		buffer_write(_b, buffer_u64, _player.steamID);
-		buffer_write(_b, buffer_u16, _player.character.x);
-		buffer_write(_b, buffer_u16, _player.character.y);
-		
-		for (var _k = 0; _k < array_length(playerList); _k++)
-		{
-			_playerID = playerList[_k].steamID;
-			
-			if _playerID == obj_Server.steamID then continue;
-			steam_net_packet_send(_playerID, _b);
-		}
-		buffer_delete(_b);
-	}
-}
-
-/// @self obj_Client
-function update_player_position (_b)
-{
-	var _steamID = buffer_read(_b, buffer_u64);
-	var _x = buffer_read(_b, buffer_u16);
-	var _y = buffer_read(_b, buffer_u16);
-	
-	for (var _i = 0; _i < array_length(playerList); _i++)
-	{
-		if _steamID == playerList[_i].steamID
-		{
-			if playerList[_i].character == undefined then continue;
-			
-			playerList[_i].character.x = _x
-			playerList[_i].character.y = _y
-		}
-	}
 }
