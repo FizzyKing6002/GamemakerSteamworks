@@ -11,8 +11,8 @@ function send_player_input (_input, _lobby_host)
 {
 	var _xInput = _input.rightKey - _input.leftKey;
 	var _yInput = _input.downKey - _input.upKey;
-	var _runKey = _input._runKey;
-	var _actionKey = _input._actionKey;
+	var _runKey = _input.runKey;
+	var _actionKey = _input.actionKey;
 	
 	var _b = buffer_create(5, buffer_fixed, 1);
 	
