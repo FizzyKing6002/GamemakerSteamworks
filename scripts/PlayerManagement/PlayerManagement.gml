@@ -10,7 +10,7 @@ function grab_spawn_point (_player)
 function send_player_input (_input, _lobby_host)
 {
 	var _xInput = _input.rightKey - _input.leftKey;
-	var _yInput = _input.downKey - input.upKey;
+	var _yInput = _input.downKey - _input.upKey;
 	var _runKey = _input._runKey;
 	var _actionKey = _input._actionKey;
 	
