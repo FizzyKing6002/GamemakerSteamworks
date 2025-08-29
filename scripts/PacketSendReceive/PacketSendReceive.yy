@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Packets",
+  "%Name":"PacketSendReceive",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Packets",
+  "name":"PacketSendReceive",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
