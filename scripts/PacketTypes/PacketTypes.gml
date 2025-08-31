@@ -1,9 +1,6 @@
-enum NETWORK_PACKETS
+enum PacketType
 {
-    SYNC_PLAYERS = 99,
-    SPAWN_SELF = 98,
-    SPAWN_OTHER = 97,
-	CLIENT_PLAYER_INPUT = 10,
-	SERVER_PLAYER_INPUT = 11,
-	PLAYER_POSITION = 12,
+	PlayerReadyRequest,
+	PlayerReadyAccept,
+	GameStart,
 }

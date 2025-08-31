@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Server",
+  "%Name":"obj_server",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -9,7 +9,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Server",
+  "name":"obj_server",
   "overriddenProperties":[],
   "parent":{
     "name":"Multiplayer",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Server",
-    "path":"sprites/spr_Server/spr_Server.yy",
+    "name":"spr_server",
+    "path":"sprites/spr_server/spr_server.yy",
   },
   "spriteMaskId":null,
   "visible":false,

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"PacketTypes",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Packets",
+    "path":"folders/Scripts/Packets.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

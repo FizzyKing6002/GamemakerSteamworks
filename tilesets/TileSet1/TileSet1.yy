@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_Backgrounds",
-    "path":"sprites/spr_Backgrounds/spr_Backgrounds.yy",
+    "name":"spr_backgrounds",
+    "path":"sprites/spr_backgrounds/spr_backgrounds.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

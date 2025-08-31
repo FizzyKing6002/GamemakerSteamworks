@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Client",
+  "%Name":"obj_client",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Client",
+  "name":"obj_client",
   "overriddenProperties":[],
   "parent":{
     "name":"Multiplayer",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Client",
-    "path":"sprites/spr_Client/spr_Client.yy",
+    "name":"spr_client",
+    "path":"sprites/spr_client/spr_client.yy",
   },
   "spriteMaskId":null,
   "visible":false,

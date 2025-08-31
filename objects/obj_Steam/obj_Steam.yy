@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Steam",
+  "%Name":"obj_steam",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -9,7 +9,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":69,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Steam",
+  "name":"obj_steam",
   "overriddenProperties":[],
   "parent":{
     "name":"Multiplayer",
@@ -34,9 +34,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Steam_icon_logo_svg",
-    "path":"sprites/Steam_icon_logo_svg/Steam_icon_logo_svg.yy",
+    "name":"spr_steam_icon",
+    "path":"sprites/spr_steam_icon/spr_steam_icon.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

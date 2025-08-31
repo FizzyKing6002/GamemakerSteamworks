@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ServerApproval",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ServerApproval",
+  "parent":{
+    "name":"Server",
+    "path":"folders/Scripts/Server.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

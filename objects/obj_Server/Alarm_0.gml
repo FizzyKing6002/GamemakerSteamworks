@@ -1,3 +1,3 @@
-send_player_positions()
+sync_players(playerList);
 
-alarm[0] = 5
+alarm[0] = 5;

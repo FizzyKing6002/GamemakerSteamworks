@@ -1,20 +1,19 @@
 while (steam_net_packet_receive())
 {
-    var _sender = steam_net_packet_get_sender_id();
-    
-    steam_net_packet_get_data(inbuf);
-    buffer_seek(inbuf, buffer_seek_start, 0);
-    
-    var _type = buffer_read(inbuf, buffer_u8);
-	switch _type
+	var _senderID = steam_net_packet_get_sender_id();
+	
+	steam_net_packet_get_data(inbuf);
+	buffer_seek(inbuf, buffer_seek_start, 0);
+	
+	var _packetType = buffer_read(inbuf, buffer_u8);
+	switch _packetType
 	{
-		case NETWORK_PACKETS.CLIENT_PLAYER_INPUT:
-			var _playerInput = receive_player_input(inbuf, _sender);
-			send_player_input_to_clients(_playerInput);
+		case PacketType.PlayerReadyRequest:
+			handle_player_ready_request(_senderID, inbuf);
 		break;
 		
 		default:
-			show_debug_message("Unknown packet recieved: " + string(_type));
+			show_debug_message("Server received unknown packet: " + string(_type));
 		break;
 	}
 }

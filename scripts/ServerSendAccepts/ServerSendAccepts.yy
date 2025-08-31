@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ServerSendAccepts",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ServerSendAccepts",
+  "parent":{
+    "name":"Server",
+    "path":"folders/Scripts/Server.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

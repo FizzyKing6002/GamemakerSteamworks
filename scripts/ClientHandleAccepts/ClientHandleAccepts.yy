@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ClientHandleAccepts",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ClientHandleAccepts",
+  "parent":{
+    "name":"Client",
+    "path":"folders/Scripts/Client.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

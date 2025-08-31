@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ServerHandleRequests",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ServerHandleRequests",
+  "parent":{
+    "name":"Server",
+    "path":"folders/Scripts/Server.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
