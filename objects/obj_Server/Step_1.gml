@@ -9,12 +9,11 @@ while (steam_net_packet_receive())
 	switch _packetType
 	{
 		case PacketType.PlayerReadyRequest:
-			show_debug_message("Received client ready request...")
 			handle_player_ready_request(_senderID, inbuf);
 		break;
 		
 		default:
-			show_debug_message("Server received unknown packet: " + string(_type));
+			show_debug_message("Server received unknown packet: " + string(_packetType));
 		break;
 	}
 }
