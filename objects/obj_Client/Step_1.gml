@@ -10,6 +10,7 @@ while (steam_net_packet_receive())
 	switch _packetType
 	{
 		case PacketType.PlayerReadyAccept:
+		show_debug_message("Received server ready accept...")
 			handle_player_ready_accept(inbuf);
 		break;
 		
