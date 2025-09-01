@@ -5,7 +5,7 @@ disabled = false;
 textColor = c_white;
 text = "Join Lobby";
 
-function selectAction ()
+function select_action ()
 {
 	// Disable other buttons
 	for (var _i = 0; _i < 5; _i++)

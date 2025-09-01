@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"PacketTypes",
+  "%Name":"Enums",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"PacketTypes",
+  "name":"Enums",
   "parent":{
-    "name":"Packets",
-    "path":"folders/Scripts/Packets.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

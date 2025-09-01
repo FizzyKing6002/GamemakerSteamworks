@@ -13,6 +13,15 @@ function get_player_ready (_steamID)
 	return playerList[_index].ready
 }
 
+function get_all_players_ready ()
+{
+	for (var _i = 0; _i < array_length(playerList); _i++)
+	{
+		if not playerList[_i].ready then return false;
+	}
+	return true;
+}
+
 function make_player_ready (_steamID)
 {
 	var _index = get_index_by_player_id(_steamID);

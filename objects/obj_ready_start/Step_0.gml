@@ -1,4 +1,12 @@
-if disabled
+if deviceType == DeviceType.None
+{
+	image_index = 3;
+}
+else if deviceType == DeviceType.Server and not self_get_all_players_ready()
+{
+	image_index = 3;
+}
+else if deviceType == DeviceType.Client and global.client.playerList[global.client.lobbyIndex].ready
 {
 	image_index = 3;
 }

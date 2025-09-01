@@ -4,3 +4,10 @@ enum PacketType
 	PlayerReadyAccept,
 	GameStart,
 }
+
+enum DeviceType
+{
+	Server,
+	Client,
+	None,
+}

@@ -3,10 +3,10 @@ draw_self();
 draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
 
-if lobby_id != -1
+if lobbyID != -1
 {
-	draw_text_transformed(bbox_left+10, y-5, "LobbyID: " + string(lobby_id), 0.5, 0.5, 0);
-	draw_text_transformed(bbox_left+10, y+5, "Creator: " + lobby_creator, 0.5, 0.5, 0);
+	draw_text_transformed(bbox_left+10, y-5, "LobbyID: " + string(lobbyID), 0.5, 0.5, 0);
+	draw_text_transformed(bbox_left+10, y+5, "Creator: " + lobbyCreator, 0.5, 0.5, 0);
 }
 else
 {

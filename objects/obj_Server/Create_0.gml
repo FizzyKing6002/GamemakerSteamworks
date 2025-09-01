@@ -7,5 +7,5 @@ playerList = [
 {
 	steamID : steamID,
 	steamName : steamName,
-	ready : false,
+	ready : true,
 }];
