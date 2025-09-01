@@ -15,7 +15,8 @@ else if deviceType == DeviceType.Client then text = "Ready";
 
 function select_action ()
 {
-	if deviceType == DeviceType.Server then ;
+	show_debug_message("Clicked!")
+	if deviceType == DeviceType.Server then show_debug_message("Starting Game...");
 	else if deviceType == DeviceType.Client then global.client.localRequests.ready = true;
 }
 
