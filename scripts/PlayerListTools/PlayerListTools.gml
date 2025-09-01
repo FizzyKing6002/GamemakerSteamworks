@@ -7,6 +7,12 @@ function get_index_by_player_id (_steamID)
 	return noone;
 }
 
+function get_player_ready (_steamID)
+{
+	var _index = get_index_by_player_id(_steamID);
+	return playerList[_index].ready
+}
+
 function make_player_ready (_steamID)
 {
 	var _index = get_index_by_player_id(_steamID);

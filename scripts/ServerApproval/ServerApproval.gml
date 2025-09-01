@@ -1,5 +1,5 @@
 /// @self obj_server
 function approve_player_ready (_steamID)
 {
-	return true;
+	return not get_player_ready(_steamID);
 }

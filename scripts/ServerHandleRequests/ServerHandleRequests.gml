@@ -7,5 +7,5 @@ function handle_player_ready_request (_senderID, _b)
 		make_player_ready(_senderID);
 		return;
 	}
-	// handle disapproval
+	show_debug_message("Player was already ready, request ignored.");
 }
