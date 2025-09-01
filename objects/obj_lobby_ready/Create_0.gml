@@ -9,7 +9,6 @@ text = "Ready";
 
 function selectAction ()
 {
-	var _b = buffer_create_lobby_ready_request();
-	buffer_relay_client_to_server(_b);
-	buffer_delete(_b);
+	if not instance_exists(obj_client) then return;
+	global.client.localRequests.ready = true;
 }

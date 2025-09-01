@@ -1,4 +1,4 @@
-if instance_exists(global.client) and global.client.playerList[global.client.lobbyIndex].ready
+if instance_exists(obj_client) and global.client.playerList[global.client.lobbyIndex].ready
 {
 	image_index = 3;
 }

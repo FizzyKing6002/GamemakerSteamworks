@@ -12,3 +12,8 @@ playerList = [
 	ready : false,
 }];
 lobbyIndex = 0;
+
+localRequests =
+{
+	ready : false
+}

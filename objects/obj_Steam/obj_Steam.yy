@@ -38,5 +38,5 @@
     "path":"sprites/spr_steam_icon/spr_steam_icon.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
