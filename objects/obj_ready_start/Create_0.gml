@@ -11,7 +11,7 @@ else show_debug_message("Server or client not initialised...");
 
 text = "Error";
 if deviceType == DeviceType.Server then text = "Start Game";
-else if deviceType == DeviceType.Server then text = "Ready";
+else if deviceType == DeviceType.Client then text = "Ready";
 
 function select_action ()
 {
