@@ -1,6 +1,6 @@
 function get_player_var ()
 {
-	playerVar =
+	var playerVar =
 	{
 		steamID : 0,
 		steamName : "Player",
