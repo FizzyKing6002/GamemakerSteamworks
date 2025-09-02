@@ -15,7 +15,10 @@
     "name":"Multiplayer",
     "path":"folders/Objects/Multiplayer.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_device_handler",
+    "path":"objects/obj_device_handler/obj_device_handler.yy",
+  },
   "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

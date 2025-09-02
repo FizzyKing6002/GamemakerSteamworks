@@ -8,6 +8,10 @@ while (steam_net_packet_receive())
 	var _packetType = buffer_read(inbuf, buffer_u8);
 	switch _packetType
 	{
+		case PacketType.PlayerSyncRequest:
+			handle_player_sync_request(_senderID, inbuf);
+		break;
+		
 		case PacketType.PlayerReadyRequest:
 			handle_player_ready_request(_senderID, inbuf);
 		break;

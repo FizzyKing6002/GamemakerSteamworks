@@ -1,5 +1,7 @@
 enum PacketType
 {
+	PlayerSyncRequest,
+	PlayerSyncAccept,
 	PlayerReadyRequest,
 	PlayerReadyAccept,
 	GameStart,

@@ -48,6 +48,7 @@
   "resources":[
     {"id":{"name":"Steamworks","path":"extensions/Steamworks/Steamworks.yy",},},
     {"id":{"name":"obj_client","path":"objects/obj_client/obj_client.yy",},},
+    {"id":{"name":"obj_device_handler","path":"objects/obj_device_handler/obj_device_handler.yy",},},
     {"id":{"name":"obj_host_lobby","path":"objects/obj_host_lobby/obj_host_lobby.yy",},},
     {"id":{"name":"obj_join_lobby","path":"objects/obj_join_lobby/obj_join_lobby.yy",},},
     {"id":{"name":"obj_lobby_item","path":"objects/obj_lobby_item/obj_lobby_item.yy",},},
