@@ -72,6 +72,7 @@
     {"id":{"name":"PlayerListTools","path":"scripts/PlayerListTools/PlayerListTools.yy",},},
     {"id":{"name":"PlayerSync","path":"scripts/PlayerSync/PlayerSync.yy",},},
     {"id":{"name":"ServerApproval","path":"scripts/ServerApproval/ServerApproval.yy",},},
+    {"id":{"name":"ServerHandleLocalRequests","path":"scripts/ServerHandleLocalRequests/ServerHandleLocalRequests.yy",},},
     {"id":{"name":"ServerHandleRequests","path":"scripts/ServerHandleRequests/ServerHandleRequests.yy",},},
     {"id":{"name":"ServerSendAccepts","path":"scripts/ServerSendAccepts/ServerSendAccepts.yy",},},
     {"id":{"name":"spr_backgrounds","path":"sprites/spr_backgrounds/spr_backgrounds.yy",},},

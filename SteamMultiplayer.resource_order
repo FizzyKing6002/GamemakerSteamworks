@@ -43,6 +43,7 @@
     {"name":"PacketSendReceive","order":1,"path":"scripts/PacketSendReceive/PacketSendReceive.yy",},
     {"name":"PlayerListTools","order":9,"path":"scripts/PlayerListTools/PlayerListTools.yy",},
     {"name":"PlayerSync","order":7,"path":"scripts/PlayerSync/PlayerSync.yy",},
+    {"name":"ServerHandleLocalRequests","order":4,"path":"scripts/ServerHandleLocalRequests/ServerHandleLocalRequests.yy",},
     {"name":"ServerHandleRequests","order":3,"path":"scripts/ServerHandleRequests/ServerHandleRequests.yy",},
     {"name":"ServerSendAccepts","order":1,"path":"scripts/ServerSendAccepts/ServerSendAccepts.yy",},
     {"name":"spr_black","order":5,"path":"sprites/spr_black/spr_black.yy",},

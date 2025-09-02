@@ -6,3 +6,8 @@ playerList[0] =
 	steamName : steamName,
 	ready : true,
 }
+
+localRequests =
+{
+	gameStart : false,
+}

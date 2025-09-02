@@ -31,3 +31,9 @@ function handle_player_ready_accept (_b)
 	_readyID = buffer_read(_b, buffer_u64);
 	make_player_ready(_readyID);
 }
+
+/// @self obj_client
+function handle_game_start (_b)
+{
+	room_goto(rm_game);
+}

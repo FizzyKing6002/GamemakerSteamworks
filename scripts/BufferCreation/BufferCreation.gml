@@ -43,3 +43,13 @@ function buffer_create_player_ready_accept (_steamID)
 	
 	return _b;
 }
+
+/// @self obj_server
+function buffer_create_game_start ()
+{
+	var _b = buffer_create(1, buffer_fixed, 1);
+	
+	buffer_write(_b, buffer_u8, PacketType.GameStart);
+	
+	return _b;
+}
