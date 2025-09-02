@@ -20,6 +20,8 @@ function handle_player_sync_accept (_b)
 		});
 	}
 	
+	lobbyIndex = get_index_by_player_id(steamID);
+	
 	show_debug_message(playerList);
 }
 

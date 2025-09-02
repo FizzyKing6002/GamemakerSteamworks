@@ -8,6 +8,7 @@ playerList[0] =
 	steamName : steamName,
 	ready : false,
 }
+lobbyIndex = 0;
 
 localRequests =
 {
