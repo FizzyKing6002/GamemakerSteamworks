@@ -8,3 +8,8 @@ function get_player_var ()
 	}
 	return playerVar;
 }
+
+function get_bytes_per_player_var ()
+{
+	return 9;
+}

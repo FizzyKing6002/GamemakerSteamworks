@@ -2,7 +2,7 @@
 function handle_player_sync_accept (_b)
 {
 	var _b_size = buffer_get_size(_b);
-	var _num_players = _b_size div 9;
+	var _num_players = _b_size div get_bytes_per_player_var();
 	playerList = [];
 	
 	for (var _i = 0; _i < _num_players; _i++)
