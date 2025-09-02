@@ -7,5 +7,5 @@ lobbyIndex = 0;
 
 localRequests =
 {
-	ready : false,
+	ready : { request : false, },
 }

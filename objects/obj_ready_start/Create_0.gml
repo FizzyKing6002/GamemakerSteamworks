@@ -24,8 +24,8 @@ function select_action ()
 {
 	switch localHost
 	{
-		case LocalHost.Server: global.server.localRequests.gameStart = true; break;
-		case LocalHost.Client: global.client.localRequests.ready = true; break;
+		case LocalHost.Server: global.server.localRequests.gameStart.request = true; break;
+		case LocalHost.Client: global.client.localRequests.ready.request = true; break;
 	}
 }
 

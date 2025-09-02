@@ -1,5 +1,5 @@
-if localRequests.gameStart
+if localRequests.gameStart.request
 {
 	handle_self_game_start_request();
-	localRequests.gameStart = false;
+	localRequests.gameStart.request = false;
 }

@@ -6,5 +6,5 @@ playerList[0].ready = true;
 
 localRequests =
 {
-	gameStart : false,
+	gameStart : { request : false, },
 }
