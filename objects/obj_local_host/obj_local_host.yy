@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_device_handler",
+  "%Name":"obj_local_host",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_device_handler",
+  "name":"obj_local_host",
   "overriddenProperties":[],
   "parent":{
     "name":"Multiplayer",

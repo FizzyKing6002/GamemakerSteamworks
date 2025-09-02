@@ -5,6 +5,8 @@ disabled = false;
 textColor = c_white;
 text = "Host Lobby";
 
+
+
 function select_action ()
 {
 	global.server = instance_create_depth(0, 0, 0, obj_server);

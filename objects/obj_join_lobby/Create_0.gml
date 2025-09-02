@@ -5,9 +5,10 @@ disabled = false;
 textColor = c_white;
 text = "Join Lobby";
 
+
+
 function select_action ()
 {
-	// Disable other buttons
 	for (var _i = 0; _i < 5; _i++)
 	{
 		var _inst = instance_find(obj_menu_button, _i);

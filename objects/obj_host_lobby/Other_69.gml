@@ -11,7 +11,6 @@ switch async_load[?"event_type"]
             steam_lobby_set_data("isGameMakerTest", "true");
             steam_lobby_set_data("Creator", steam_get_persona_name());
         }
-        
         room_goto(rm_lobby);
 	break;
 }

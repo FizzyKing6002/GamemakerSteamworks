@@ -1,11 +1,8 @@
 event_inherited();
 
-playerList[0] =
-{
-	steamID : steamID,
-	steamName : steamName,
-	ready : true,
-}
+
+
+playerList[0].ready = true;
 
 localRequests =
 {

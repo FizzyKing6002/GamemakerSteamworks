@@ -6,6 +6,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":69,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_client",
@@ -15,8 +16,8 @@
     "path":"folders/Objects/Multiplayer.yy",
   },
   "parentObjectId":{
-    "name":"obj_device_handler",
-    "path":"objects/obj_device_handler/obj_device_handler.yy",
+    "name":"obj_local_host",
+    "path":"objects/obj_local_host/obj_local_host.yy",
   },
   "persistent":true,
   "physicsAngularDamping":0.1,

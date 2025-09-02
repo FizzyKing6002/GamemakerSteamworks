@@ -11,6 +11,8 @@ lobbyCreator = "SteamPlayer";
 image_xscale = 5;
 image_yscale = 0.5;
 
+
+
 function select_action ()
 {
 	global.client = instance_create_depth(0, 0, 0, obj_client);

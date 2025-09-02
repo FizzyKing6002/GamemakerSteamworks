@@ -17,8 +17,8 @@
     "path":"folders/Objects/Multiplayer.yy",
   },
   "parentObjectId":{
-    "name":"obj_device_handler",
-    "path":"objects/obj_device_handler/obj_device_handler.yy",
+    "name":"obj_local_host",
+    "path":"objects/obj_local_host/obj_local_host.yy",
   },
   "persistent":true,
   "physicsAngularDamping":0.1,

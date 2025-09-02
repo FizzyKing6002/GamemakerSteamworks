@@ -7,7 +7,7 @@ enum PacketType
 	GameStart,
 }
 
-enum DeviceType
+enum LocalHost
 {
 	Server,
 	Client,
