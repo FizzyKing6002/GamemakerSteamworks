@@ -1,9 +1,10 @@
 function get_player_var ()
 {
-	return playerVar =
+	playerVar =
 	{
 		steamID : 0,
 		steamName : "Player",
 		ready : false,
 	}
+	return playerVar;
 }
